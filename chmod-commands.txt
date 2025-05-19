@@ -1,0 +1,9 @@
+# chmod Commands Used
+
+ls -la ~/projects
+
+chmod o-w project_k.txt
+chmod u-w .project_x.txt
+chmod g-w .project_x.txt
+chmod g+r .project_x.txt
+chmod g-x drafts/

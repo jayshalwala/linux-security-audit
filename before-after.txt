@@ -1,0 +1,11 @@
+# File Permissions: Before and After
+
+## Before
+-rw-rw-rw- 1 user group 1024 Jan  1 09:00 project_k.txt
+-rw-rw-r-- 1 user group 2048 Jan  1 09:01 .project_x.txt
+drwxrwxr-x 2 researcher2 group 4096 Jan  1 09:02 drafts
+
+## After
+-rw-rw-r-- 1 user group 1024 Jan  1 09:00 project_k.txt
+-r--r--r-- 1 user group 2048 Jan  1 09:01 .project_x.txt
+drwxrwx--- 2 researcher2 group 4096 Jan  1 09:02 drafts
